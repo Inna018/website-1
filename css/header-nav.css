@@ -1,11 +1,3 @@
-#header {
-    background: url(../img/icon.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    color: white;
-}
-
 .header__intro.pricing {
     color: white;
 }
