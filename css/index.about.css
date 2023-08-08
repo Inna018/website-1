@@ -1,0 +1,67 @@
+.strengths{
+    max-width: 870px;
+    margin: 100px auto 50px;
+    text-align: center;
+}
+
+.strengths__title{
+    width: 400;
+    font-size: 48px;
+    line-height: 55px;
+}
+
+.strengths__intro{
+    font-size: 28px;
+    line-height: 40px;
+}
+
+.strengths__content{
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+.strengths-card{
+    max-width: 220px;
+}
+
+.features__video {
+    margin-top: 5px;
+}
+
+.features__video,
+.video {
+    position: relative;
+}
+
+.video__button {
+    position: absolute;
+    top: 50%;
+    transform: translateX(-50%);
+    transform: translateY(-50%);
+    left: 45%;
+    width: 60px;
+}
+
+@media (min-width: 600px) {
+    .video__button {
+        width: 150px;
+    }
+}
+
+.strengths-card__image {
+    width: 46px;
+    height: 46px;
+}
+
+.strengths-card__header{
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.strengths-card__text{
+    font-size: 18px;
+    line-height: 25px;
+}
