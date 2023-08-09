@@ -1,0 +1,123 @@
+.prototyping_container {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    text-align: center;
+}
+
+.prototyping_container image{
+    max-width: 670px;
+    width: 100%;
+    height: auto;
+}
+
+.prototyping__iform{
+    max-width: 450px;
+    order: 2;
+}
+
+.prototyping_container {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+}
+
+.prototyping__iform {
+    max-width: 350px;
+}
+
+.prototyping__iform p {
+    font-weight: bold;
+}
+
+.prototyping__iform-title {
+    font-weight: bold;
+    margin: 0;
+}
+
+p.prototyping__form-subtitle {
+    margin: 0 0 30px;
+    font-weight: 300;
+}
+
+.prototyping__image {
+    max-width: 620px;
+    width: 100%;
+    height: auto;
+    order: 1;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+#subscribe-email {
+    background-color: #f4f4f4;
+    padding: 19px 0 19px 15px;
+    border: transparent;
+    border-radius: 35px;
+}
+
+#submit {
+    background-color: #2091F9;
+    font-size: 16px;
+    font-family: "Roboto";
+    padding: 14px 18px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    border-radius: 35px;
+    border: none;
+    margin-top: 10px;
+}
+
+@media (min-width: 425px) {
+    .form {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #submit {
+        max-width: 120px;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 600px) {
+    .btn-try.other {
+        display: inline-block;
+    }
+}
+
+@media (min-width: 1140px) {
+    .prototyping_container {
+        margin-top: 170px;
+        text-align: left;
+    }
+
+    .prototyping__iform {
+        order: 1;
+    }
+
+    .prototyping_container img {
+        order: 1;
+    }
+
+    .btn-try.other {
+        margin-top: 50px;
+    }
+
+    .prototyping_container {
+        margin-top: 170px;
+        gap: 100px;
+        text-align: left;
+    }
+} 
